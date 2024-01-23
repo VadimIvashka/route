@@ -1,0 +1,37 @@
+.bloger{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.blog-info{
+    width: 70%;
+}
+.blog-img{ 
+    width: 300px;
+}
+.blog{
+    padding-left: 90px;
+}
+.blog-main{
+    font-size: 30px;
+    color:var(--oneColor) ;
+}
+@media (max-width: 768px) {
+	.bloger{
+        display: grid;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .blog-img {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .cart {
+        max-width: 100%; 
+    
+    }
+  } 
